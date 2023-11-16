@@ -1,4 +1,5 @@
 import Directory from '../../directory/directory.component'
+
 const app = () => {
   const catagories = [
     {
@@ -26,6 +27,7 @@ const app = () => {
       "title": "mens",
       "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
     }];
+
   return (
       <div>
         <Directory categories={catagories} />
