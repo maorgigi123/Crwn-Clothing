@@ -5,7 +5,7 @@ import CartIcon from "../../cart-icon/cart-icon.component";
 import CartDropdown from "../../cart-dropdown/cart-dropdown.component";
 
 import { UserContext } from "../../../context/user.context";
-import { CardContext } from "../../../context/cart-context";
+import { CartContext } from "../../../context/cart-context";
 
 import { ReactComponent as CrwnLogo} from '../../../assets/crown.svg';
 import { signOutUser } from '../../../utlis/firebase/firebase.utils';
@@ -13,7 +13,7 @@ import { signOutUser } from '../../../utlis/firebase/firebase.utils';
 import {NavigationContainer,LogoContainer,NavLinks,NavLink } from './navigation.styles'
 const Navigation = () => {
     const { currentUser } = useContext(UserContext);
-    const { isCartOpen } = useContext(CardContext);
+    const { isCartOpen } = useContext(CartContext);
     return(
         <Fragment>
             <NavigationContainer>
