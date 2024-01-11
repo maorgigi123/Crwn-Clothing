@@ -30,6 +30,7 @@ export const ProductCartContainer = styled.div`
     height: 95%;
     object-fit: cover;
     margin-bottom: 5px;
+    transition: 0.4s;
   }
 
   button {
@@ -42,8 +43,7 @@ export const ProductCartContainer = styled.div`
 
   &:hover {
     img {
-      order:100;
-      transform: scale(1.12);
+      transform: scale(1.11);
       transition: transform .4s cubic-bezier(0.25, 0.45, 0.45, 0.95); 
     }
     & ${Footer} {
@@ -51,6 +51,7 @@ export const ProductCartContainer = styled.div`
       color:white;
       bottom:0;
       font-weight: bold;
+      text-shadow: 0 0 2px #000000, 0 0 2px #000000; 
     }
     button {
       opacity: 0.85;
