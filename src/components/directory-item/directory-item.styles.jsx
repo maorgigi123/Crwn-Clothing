@@ -49,7 +49,6 @@ export const DirectoryItemContainer = styled.div`
   overflow: hidden;
 
 
-
   &:hover {
     cursor: pointer;
 

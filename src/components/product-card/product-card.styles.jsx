@@ -24,11 +24,11 @@ export const ProductCartContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
-
+  margin-bottom: 5px;
   img {
     width: 100%;
     height: 95%;
-    object-fit: cover;
+    object-fit: fill;
     margin-bottom: 5px;
     transition: 0.4s;
   }
